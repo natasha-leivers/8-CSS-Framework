@@ -13,19 +13,22 @@
 </head>
 
 <body>
-    <main>
-        <img src="images/Black cat.jpg" class="rounded float-start w-5" alt="Black Cat logo">
+    <header>
+        <div class="position-relative d-flex align-items-end justify-content-center">
+            <img src="images/Black cat.jpg" class="position-absolute top-0 start-0 rounded w-5 m-5" alt="Black Cat logo">
 
-        <div>
             <img src="images/beach.JPG" class="img-fluid" alt="A beach">
-            <div class="container">
-                <h1>Content button title goes here</h1>
-                <h2>Content button sub-title description</h2>
+
+            <div class="position-absolute text-center p-5 m-5">
+                <h1 class="display-6 text-uppercase mb-2">Content button title goes here</h1>
+                <h2 class="lead fs-6 text-light mb-4">Content button sub-title description</h2>
                 <button type="button" class="btn">Read more button</button>
             </div>
         </div>
+    </header>
 
-        <div class="row align-items-start container">
+    <main class="m-10">
+        <div class="row g-4 text-center">
             <div class="col">
                 <h3>Content Heading</h3>
                 <p>This is a content section that will allow you to highlight main aspects of what you are or offer</p>
@@ -45,12 +48,12 @@
         </div>
 
 
-        <div class="container">
+        <div>
             <h2>Examples of services or products</h2>
             <p>Here is where you can try and captivate the users on a second attempt with additional services or products should the first attempt fail. You can't always get them first time round and it's good to have a backup plan should this happen</p>
         </div>
 
-        <div class="grid container">
+        <div class="grid">
             <div class="g-col-4"><img src="..." alt="..."></div>
             <div class="g-col-4"><img src="..." alt="..."></div>
             <div class="g-col-4"><img src="..." alt="..."></div>
@@ -59,7 +62,7 @@
             <div class="g-col-4"><img src="..." alt="..."></div>
         </div>
 
-        <div class="row align-items-start container">
+        <div class="row align-items-start">
             <h2>Take a look at our awesome products</h2>
             <div class="col">
                 <h3>Content Heading</h3>
@@ -80,12 +83,12 @@
             </div>
         </div>
 
-        <div class="container">
+        <div>
             <h2>Testimonials</h2>
             <p>Here is where you can try and captivate the users by providing them with some feedback from your previous clients. These come in a form of star rating, five being great service and 1 star representing bad experiences.</p>
         </div>
 
-        <div class="row align-items-start container">
+        <div class="row align-items-start">
             <div class="card col" style="width: 18rem;">
                 <div class="card-body">
                     <img src="..." class="card-img" alt="...">
@@ -113,8 +116,8 @@
         </div>
     </main>
 
-    <footer>
-        <div class="row align-items-start container">
+    <footer class="m-10">
+        <div class="row align-items-start">
 
             <!--Contact form-->
             <div class="col">
@@ -152,7 +155,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div>
             <p>Copyright 2026. All rights reserved company name</p>
         </div>
     </footer>
