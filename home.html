@@ -149,12 +149,12 @@
 
     <!--Footer-->
     <footer class="bg-subtle-inverse pt-5">
-        <div class="m-10 row align-items-start">
+        <div class="m-10 row align-items-start gap-9">
 
             <!--Contact form-->
             <div class="col">
                 <h2 class="pb-5 text-uppercase">Contact Us</h2>
-                <h3>Send us a message</h3>
+                <h3 class="pb-5">Send us a message</h3>
                 <div class="form-field">
                     <div class="form-field">
                         <label for="exampleFormControlInput1" class="form-label">Full Name</label>
@@ -162,33 +162,47 @@
                     </div>
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    <div class="form-text">
-                        We’ll never share your data with anyone else.
-                    </div>
                     <div class="form-field">
                         <label for="exampleFormControlTextarea2" class="form-label">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea2" rows="4" placeholder="Your message here"></textarea>
                     </div>
                     <button type="button" class="btn">Submit</button>
+                    <div class="form-text">
+                        We’ll never share your data with anyone else.
+                    </div>
                 </div>
             </div>
 
             <!--Site pages-->
             <div class="col">
                 <h2 class="pb-5 text-uppercase">Sitemap</h2>
-                <h3>All our pages</h3>
+                <h3 class="pb-5">All our pages</h3>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                        Home
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">About Us</a>
+                    <a href="#" class="list-group-item list-group-item-action">Features</a>
+                    <a href="#" class="list-group-item list-group-item-action">Pricing</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled" aria-disabled="true">Contact Us</a>
+                </div>
             </div>
 
             <!--Company Info-->
             <div class="col">
                 <img src="images/Black cat.jpg" class="rounded-circle w-10 mb-10" alt="Black Cat logo">
-                <p>0860 555 3695</p>
-                <p>customerservice@companyname.com</p>
+                <div class="d-flex gap-5">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>0860 555 3695</p>
+                </div>
+                <div class="d-flex gap-5">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>customerservice@companyname.com</p>
+                </div>
             </div>
         </div>
-
         <!--Copyright Information-->
-        <div class="pt-10">
+        <div class="bg-1 p-5">
             <p>Copyright 2026. All rights reserved company name</p>
         </div>
     </footer>
